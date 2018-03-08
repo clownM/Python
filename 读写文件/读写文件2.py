@@ -1,0 +1,5 @@
+f = open("writeFile2.txt","w")
+print("请输入你想要保存的内容：")
+data = input()
+f.write(data)
+f.close()
